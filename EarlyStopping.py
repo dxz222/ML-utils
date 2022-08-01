@@ -14,12 +14,12 @@ class EarlyStopping:
                        Default: 10
             verbose (bool): If True, prints a message for each validation loss.
                        Default: False
-	        checkpoint (bool): If True, saves the model and checkpoint as the performance is getting better. 
-		      		   Default: True.
+	    checkpoint (bool): If True, saves the model and checkpoint as the performance is getting better. 
+		       Default: True.
             torl (float): Minimal change in the monitored quantity to qualify as an improvement.
                        Default: 1e-4
-			iter (str): suffix for the name of created model and checkpoint.
-					   Default: ""
+	    iter (str): suffix for the name of created model and checkpoint.
+		       Default: ""
         '''
         self.dir = dir
         self.patience = patience

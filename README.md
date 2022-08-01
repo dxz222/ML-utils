@@ -1,2 +1,2 @@
-# ML-uitls
+# ML-utils
 Utilities for machine learning.
